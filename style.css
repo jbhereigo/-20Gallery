@@ -1,8 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
+  font-family: Arial, sans-serif;
   background: #111;
-  color: #fff;
+  color: white;
 }
 
 header {
@@ -16,19 +16,15 @@ main {
   padding: 20px;
 }
 
-h2 {
-  margin-top: 30px;
-}
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
 }
 
-img, video {
+img {
   width: 100%;
-  border-radius: 12px;
   display: block;
+  border-radius: 12px;
   background: #000;
 }
